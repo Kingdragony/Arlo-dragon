@@ -1,26 +1,32 @@
-# Zokou-2.0
+# 𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸
 
 
 
-Zokou is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, Zokou is here to assist you.
+𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸 is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management,𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸
+  is here to assist you.
 
 ## Key Features
 
-- **File Download:** Zokou can download audio and video files from links you send, making it easy to share them with your contacts.
+- **File Download:** 𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸
+ can download audio and video files from links you send, making it easy to share them with your contacts.
 
-- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Zokou.
+- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to 𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸
+ .
 
-- **Group Management:** Zokou offers group management features, such as adding or removing members, configuring rules, and other settings.
+- **Group Management:**𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸
+  offers group management features, such as adding or removing members, configuring rules, and other settings.
 
 - **Text to Img:** The best logos have been selected for your convenience.
 
 ## Fun Features
 
-- **Jokes and Riddles:** Zokou comes with a collection of jokes and riddles to liven up your conversations.
+- **Jokes and Riddles:**𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸
+  comes with a collection of jokes and riddles to liven up your conversations.
 
 - **Inspiring Quotes:** Receive inspiring quotes to motivate you daily.
 
-## Get Zokou
+## Get 𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸
+
 
 1. Click on **[Fork](https://github.com/Luffy2ndAccount/Zokou-english-v/fork)** to copy the repo to your GitHub account. Make sure to add a star 🌟 to encourage the developers.
 
