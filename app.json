@@ -1,14 +1,14 @@
 {
-  "name": "Zokou-2.0",
-  "description": "bot whatsapp développé par djalega++",
+  "name": "𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸",
+  "description": "𝚠𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚋𝚘𝚝 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚍 𝚋𝚢 𝙰𝚁𝙻𝙾𝙳𝚁𝙰𝙶𝙾𝙽",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository": "https://github.com/djalega8000/Zokou-2.0",
+  "logo": "https://telegra.ph/file/06b2add033260da0ce79f.jpg",
+  "repository": "https://github.com/Kingdragony/Arlo-dragon",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -34,12 +34,12 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "Zokou-MD",
+      "value": "𝙳𝚁𝙰𝙶𝙾𝙽-𝙰𝙸",
       "required": false
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value": "https://i.pinimg.com/736x/0a/70/6f/0a706f90d6a1fb39919aedfbb7fdd8d3.jpg",
+      "value": "https://telegra.ph/file/06b2add033260da0ce79f.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -63,12 +63,12 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "Djalega++"
+      "value": "Arlodragon"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "22891733300"
+      "value": "254702713600"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -82,7 +82,7 @@
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-      "value": "",
+      "value": "3",
       "required": false
     },
     "PM_CHATBOT": {
