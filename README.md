@@ -59,6 +59,6 @@ Enjoy the diverse features of the WhatsApp Bot DRAGON AI to enhance your convers
 
 ## Developers:
 
-- [ARLODRAGON](https://github.com/Kingdragony/Arlo-dragon)
+- [ARLODRAGON](https://github.com/kingdragony/Arlo-dragon/)
 - [**Dragon 🐉᚜**](https://github.com/kingdragony)
 
