@@ -1,6 +1,6 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
+const { zokou } = require(__dirname + "/../framework/Dragon");
 const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 //const {police}=require(__dirname+"/../framework/mesfonctions")
 const os = require("os");
@@ -14,7 +14,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     if ((s.MODE).toLocaleLowerCase() != "oui") {
         mode = "privé";
     }
-    var emoji = { "General": "🌐", "Logo": "🎨", "Hentai": "🔥", "Weeb": "🌸", "Recherche": "🔍", "Conversion": "🌟", "Groupe": "♻️", "Autre": "🪖" };
+    var emoji = { "General": "★", "Logo": "✯", "Hentai": "☬", "Weeb": "❖", "Recherche": "♔", "Conversion": "✡", "Groupe": "♕", "Autre": "♙" };
     cm.map(async (com, index) => { if (!coms[com.categorie])
         coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
     const temps = moment(moment()).format("HH:MM:SS");
@@ -37,18 +37,18 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     /* menuMsg+=`
    ╔════ ▓▓ ࿇ ▓▓ ════╗
    
-   ||
-   ||     Préfixe : ${s.prefixe}
-   ||      Owner : ${s.OWNER_NAME}
-   ||      Commandes : ${cm.length}
-   ||      Date : ${date}
-   ||      Heure : ${temps}
-   ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
-   ||  Développeurs : Djalega++||Luffy
-   ||
+   ✯
+   ✯   Préfixe : ${s.prefixe}
+   ✯    Owner : ${s.OWNER_NAME}
+   ✯   Commandes : ${cm.length}
+   ✯    Date : ${date}
+   ✯     Heure : ${temps}
+   ✯    Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
+   ✪ Developer: ARLODRAGON 
+   ★
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-╔════---------
+╔♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 ║    Préfixe : ${s.PREFIXE}
 ║    Owner : ${s.OWNER_NAME}    
 ║    Mode : ${mode}
@@ -57,21 +57,21 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ║    Heure : ${temps}
 ║    Mémoire : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ║    Plateforme : ${os.platform()}
-║    Développeurs : Djalega++||Luffy
-╚════--------------- \n\n`;
+║    𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : 𝙰𝚁𝙻𝙾𝙳𝚁𝙰𝙶𝙾𝙽
+╚════---------------⫷⫸⫷⫸⫷⫸ \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
-            emoji[cat] = "💞";
+            emoji[cat] = "♟";
         }
         menuMsg += `${emoji[cat]} ══ *${cat} * ══ ${emoji[cat]}\n`;
         for (const cmd of coms[cat]) {
             menuMsg += "\t  ║ " + cmd + "" + " \n";
         }
     }
-    //  var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg";
+    //  var link = "https://telegra.ph/file/06b2add033260da0ce79f.jpg";
     var link = s.IMAGE_MENU;
     try {
-        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "by Djalega++" }, { quoted: ms });
+        𝙳𝙶.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "by Djalega++" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -84,7 +84,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 module.exports.commande =()=>
   {
     var nomCom=["menu","m","fonctions"];
-    var reaction="🐞"
+    var reaction="♞"
     var categorie="General"
 
 
@@ -112,7 +112,7 @@ module.exports.commande =()=>
 
 var tt=[]
 
- async  function execute(dest,zok,commandeOptions?)
+ async  function execute(dest,𝙳𝚁𝙰𝙶,commandeOptions?)
   {
 
     var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg"
