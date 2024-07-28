@@ -7,8 +7,8 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://github.com/Kingdragony/Arlo-dragon",
-  "repository": "https://github.com/djalega8000/Zokou-2.0",
+  "logo": "https://raw.githubusercontent.com/Kingdragony/Arlo-dragon/main/Arlo-dragon.jpg",
+  "repository": "https://github.com/Kingdragony/Arlo-dragon",
   "succes_url": "/",
   "stack": "container",
   "env": {
