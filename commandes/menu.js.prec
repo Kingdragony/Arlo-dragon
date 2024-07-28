@@ -1,14 +1,14 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/Dragon");
+const { 𝙳𝚁𝙰𝙶𝙾𝙽 } = require(__dirname + "/../framework/Dragon");
 const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 //const {police}=require(__dirname+"/../framework/mesfonctions")
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
+𝙳𝚁𝙰𝙶𝙾𝙽({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre } = commandeOptions;
-    let { cm } = require(__dirname + "/../framework//zokou");
+    let { cm } = require(__dirname + "/../framework//𝙳𝚁𝙰𝙶𝙾𝙽");
     var coms = {};
     var mode = "public";
     if ((s.MODE).toLocaleLowerCase() != "oui") {
@@ -19,7 +19,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
     const temps = moment(moment()).format("HH:MM:SS");
     moment.tz.setDefault('asia/karachi ').locale("id");
-    const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
+    const date = moment.tz("𝙽𝙰𝙸𝚁𝙾𝙱𝙸/𝙺𝙴𝙽𝚈𝙰").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
     let menuMsg = "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n";
